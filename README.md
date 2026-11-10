@@ -23,7 +23,10 @@ A 60-minute lunch round table on observing AI agents: in the enterprise, on the 
 
 - **Traces are like traceroute.** A single agent request fans out into LLM calls, tool calls, retries and sub-agents. Each step is a span, much like each hop in a path. The [OpenTelemetry GenAI semantic conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/) are the emerging standard for recording them.
 - **Golden signals for agents.** Latency, error rate, **token usage and cost**, tool-call success rate, and loops (agents retrying endlessly).
-- **Non-determinism.** The same input can take a different path each time. How do you baseline that?
+- **Understand non-deterministic behavior:** Because an agent's reasoning process isn't deterministic, telemetry is the only reliable way to inspect the decisions an agent makes and the tools it selects.
+- **Troubleshoot and diagnose errors:** Traces help you identify failed API requests, infinite execution loops, and latency bottlenecks across distributed agent workflows.
+- **Support governance and validate traffic:** Telemetry lets you visualize communication flows—such as in Application Topology—to verify that your agents communicate only with authorized agents, MCP   servers, and external endpoints.
+- **Evaluate output quality and cost:** Collecting prompts, responses, and token usage helps you assess model accuracy, detect hallucinations, and optimize resource consumption.
 
 ## 2. Agents in the enterprise
 
