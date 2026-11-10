@@ -117,9 +117,3 @@ Links: [langfuse.com](https://langfuse.com) · [GitHub](https://github.com/langf
 3. Is an agent's tool call more like a user action or an API call for audit purposes?
 4. What's the agent equivalent of a NetFlow record: the minimum we should log for every action?
 5. Would you let an agent make network changes? Under what observability conditions?
-
-## Facilitation tips
-
-- Open with the show-of-hands question (run, block, or don't know) to get people talking right away.
-- Sections 2 and 4 usually generate the most conversation. If time runs short, shrink the tools section and point people to this README.
-- Close by asking each person for one tool or practice they'll try.
