@@ -1,6 +1,9 @@
 # AI Agent Observability — Round Table for Network Engineers
 
-A 60-minute lunch round table on observing AI agents: in the enterprise, on the network, and running locally on laptops and dev boxes.
+A 60-minute lunch round table on observing AI agents: in the enterprise, on the network, and running locally on laptops and dev boxes. You can't improve, control, or analyze what you cant see.
+
+## Why are AI Agents Like Teenagers
+AI Agents are like a teenager: it needs constant supervision, and the second you leave the room, it does something you’ll have to explain to someone later.
 
 **Framing:** AI agents are a new kind of network endpoint. They generate traffic, make API calls nobody predicted, and sometimes change infrastructure. Network engineers already know how to observe distributed systems; this session applies that thinking to agents.
 
